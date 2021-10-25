@@ -1,0 +1,148 @@
+            body{
+                background-color: #8BA1BB;
+                font-family: Arial;
+                margin: 0;
+                
+            }
+            * {
+                overflow: auto;
+            }
+            p.hd{
+                text-align: center;
+                background-color: black;
+                max-width: 300px;
+                color: white;
+                font-weight: bold;
+                font-size: 27px;
+                display:inline-block;
+                margin-bottom: 0px;
+                padding: 10px 24px
+            }
+
+            div.hd{
+                margin-top: -75px;
+                margin-bottom: 0px;
+
+            }
+            div.content{
+                overflow: visible;
+                background-color: white;
+                box-shadow: 0px 0px 18px 3px black;
+                margin: 80px 10% 60px 10%;
+                min-width: 590px;
+                padding: 30px
+                
+                
+                
+            }
+            h1{
+                text-align: center;
+                margin-top: 0px;
+                margin-bottom: 22px;
+
+
+            }
+            p.description{
+                /*text-align: center;*/
+                max-width: 500px;
+                display: inline-block;
+                font-size: 22px;
+            }
+            .center{
+                text-align: center;
+                width:100%
+
+            }
+            div.description_block{
+  
+ 
+            }
+            div.bar{
+                height: 1px;
+                width: 150px;
+                background-color:gray;
+                margin-left: auto;
+                margin-right:auto;
+
+            }
+            div.info{
+                position: relative;
+            }       
+            table.info{
+                position: absolute;
+                bottom: 0; 
+                width: 100%;
+                height:80px; 
+                margin: 0px 1% 0px 0;
+                color: white;
+                background-color:#6C829DC0;
+            }
+            table.info th{
+                vertical-align: bottom;
+                padding-bottom: 3px
+
+            }
+            table.info td{
+                text-align: center;
+                padding-bottom: 3px;
+                font-size:small;
+            }
+
+            }
+            img.info{
+                display: block;
+                max-height: 350px;
+                object-fit: cover;
+                min-height:200px;
+                background-color: lightgray;
+            }
+            div.col{
+                width: 45%;
+                padding-top:6px;
+                overflow: auto;
+            }
+            div.col h2{
+                text-align: center;
+                text-transform: uppercase;
+                font-size: medium;
+                border-bottom: 6px solid #6C829D;
+                padding-bottom: 6px;
+
+            }
+            div.col1{
+                display: inline-block;
+                margin-right: 10%
+            }
+            div.col2{
+                float: right;
+            }
+            div.ingredients p{
+                text-align: center;
+                border: 1px solid lightgrey;
+                font-size: 23px;
+                font-weight: bold;
+                margin-top: 4px;
+                margin-bottom: 0px;
+                padding: 11px 0
+            }
+            table.instructions p.number{
+                text-align: center;
+                background-color: #6C829D;
+                color: white;
+                font-size: 19px;
+                font-weight: bold;
+                padding-top: 5px;
+                box-sizing: border-box;
+                border-radius: 50%;
+                height: 30px;
+                width:30px
+            }
+            table.instructions td.instruction_step{
+                font-size: 23px;
+                padding-left: 10px;
+                padding-bottom: 2px;
+            }
+            table.instructions td{
+                vertical-align: middle;
+                height: 60px;
+            }
